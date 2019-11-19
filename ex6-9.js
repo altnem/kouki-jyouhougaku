@@ -1,0 +1,1 @@
+function txtchange(){document.getElementById('txt').innerHTML='城西生です';}
