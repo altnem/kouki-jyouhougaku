@@ -14,6 +14,7 @@
 <script src="ex6-10.js"></script>
 <script src="ex6-11.js"></script>
 <script src="ex6-12.js"></script>
+<script src="ex6-13.js"></script>
 </head>
 <body>
 <h1>Hello world6-1</h1>
@@ -62,10 +63,14 @@
 <input type="text" name="moji2" size="30" value="">
 </form>
 
-<h1>3秒切り替え画像6-12</h1>
+<h1>3秒6-12</h1>
+<input type="button" value="3秒で変更" onclick="ThreeSecChange();">
+  <img src='./image/jyousai.png' id="logo2" alt="josai Logo">
+
+<h1>6-13</h1>
 <div id="backimg"> 
-<input type="button" value="画像の変更切り替え"onclick="ChangeImageBack();">
-<img src='./image/jyousai.png' id="logo2" alt="josai Logo2">
+<input type="button" value="画像の変更切り替え"onclick="ChangeImageAndBack();">
+<img src='./image/jyousai.png' id="img13" alt="Josai Logo" class="imagechange">
 </div>
 </body>
 </html>
